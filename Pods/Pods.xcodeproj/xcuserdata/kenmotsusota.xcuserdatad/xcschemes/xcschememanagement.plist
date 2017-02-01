@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JBDatePicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DiarySampler.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DiarySamplerTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DiarySamplerUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>14B481095F6E0F4FD246C7FF3600D060</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35AEE8EAD979A54166CAA137911AE5A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D3CBB6891E3AF73B9A60A538525023B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B94AB17EA5B735937C669C4BEE9EE7C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
