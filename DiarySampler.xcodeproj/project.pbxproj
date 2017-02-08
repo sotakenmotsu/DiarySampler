@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A6859BBFAF560C703D568276 /* Pods_DiarySamplerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24158C461AD9C0D47B403FBE /* Pods_DiarySamplerTests.framework */; };
 		B729D019B3BCD2DC0C2D17B3 /* Pods_DiarySamplerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275F8D3BA7C05EBB204C45FE /* Pods_DiarySamplerUITests.framework */; };
+		C503CB4A1E4B24BF00167EBC /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503CB491E4B24BF00167EBC /* Diary.swift */; };
 		C512D1011E41F369006BF204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512D1001E41F369006BF204 /* AppDelegate.swift */; };
 		C512D1031E41F369006BF204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512D1021E41F369006BF204 /* ViewController.swift */; };
 		C512D1061E41F369006BF204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C512D1041E41F369006BF204 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 		C512D10B1E41F369006BF204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C512D1091E41F369006BF204 /* LaunchScreen.storyboard */; };
 		C512D1161E41F369006BF204 /* DiarySamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512D1151E41F369006BF204 /* DiarySamplerTests.swift */; };
 		C512D1211E41F369006BF204 /* DiarySamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512D1201E41F369006BF204 /* DiarySamplerUITests.swift */; };
+		C5DB20F41E4B2AD40072CB3B /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DB20F31E4B2AD40072CB3B /* DiaryViewController.swift */; };
 		E3D5BDFE08143D56EAF9E012 /* Pods_DiarySampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CD9EBE12C0F9A9E8AB400 /* Pods_DiarySampler.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,7 @@
 		4CB555CAB9F49ADC3F891789 /* Pods-DiarySamplerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiarySamplerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiarySamplerUITests/Pods-DiarySamplerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6422B986356B962A59A1D143 /* Pods-DiarySampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiarySampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiarySampler/Pods-DiarySampler.debug.xcconfig"; sourceTree = "<group>"; };
 		96813C6C89C5D168A6C52112 /* Pods-DiarySamplerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiarySamplerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiarySamplerUITests/Pods-DiarySamplerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C503CB491E4B24BF00167EBC /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		C512D0FD1E41F369006BF204 /* DiarySampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiarySampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C512D1001E41F369006BF204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C512D1021E41F369006BF204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		C512D11C1E41F369006BF204 /* DiarySamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiarySamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C512D1201E41F369006BF204 /* DiarySamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarySamplerUITests.swift; sourceTree = "<group>"; };
 		C512D1221E41F369006BF204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DB20F31E4B2AD40072CB3B /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		CE2D2512106139774C50192F /* Pods-DiarySamplerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiarySamplerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiarySamplerTests/Pods-DiarySamplerTests.release.xcconfig"; sourceTree = "<group>"; };
 		EDDFBB462ABBCB744460204F /* Pods-DiarySampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiarySampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiarySampler/Pods-DiarySampler.release.xcconfig"; sourceTree = "<group>"; };
 		F827CC34268E31323BCF67BC /* Pods-DiarySamplerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiarySamplerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiarySamplerTests/Pods-DiarySamplerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 			children = (
 				C512D1001E41F369006BF204 /* AppDelegate.swift */,
 				C512D1021E41F369006BF204 /* ViewController.swift */,
+				C503CB491E4B24BF00167EBC /* Diary.swift */,
+				C5DB20F31E4B2AD40072CB3B /* DiaryViewController.swift */,
 				C512D1041E41F369006BF204 /* Main.storyboard */,
 				C512D1071E41F369006BF204 /* Assets.xcassets */,
 				C512D1091E41F369006BF204 /* LaunchScreen.storyboard */,
@@ -431,7 +437,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DB20F41E4B2AD40072CB3B /* DiaryViewController.swift in Sources */,
 				C512D1031E41F369006BF204 /* ViewController.swift in Sources */,
+				C503CB4A1E4B24BF00167EBC /* Diary.swift in Sources */,
 				C512D1011E41F369006BF204 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

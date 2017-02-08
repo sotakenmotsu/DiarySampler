@@ -12,6 +12,8 @@ import JBDatePicker
 class ViewController: UIViewController, JBDatePickerViewDelegate {
     
     @IBOutlet var datePicker: JBDatePickerView!
+    @IBOutlet var writeButton: UIButton!
+    var date: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +35,19 @@ class ViewController: UIViewController, JBDatePickerViewDelegate {
     
     func didSelectDay(_ dayView: JBDatePickerDayView) {
         print("date selected: \(dateFormatter.string(from: dayView.date!))")
+        date = dateFormatter.string(from: dayView.date!)
         
+    }
+    
+    @IBAction func writeButtonPushed(_ sender:UIButton) {
+        self.performSegue(withIdentifier: "toDiary", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender:Any?) {
+        if (segue.identifier == "toDiary") {
+            let diaryView = segue.destination as! DiaryViewController
+            diaryView.date = self.date
+        }
     }
     
     lazy var dateFormatter: DateFormatter = {
@@ -42,5 +56,7 @@ class ViewController: UIViewController, JBDatePickerViewDelegate {
         formatter.dateStyle = .medium
         return formatter
     }()
+    
+    
 }
 
